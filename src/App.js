@@ -17,7 +17,7 @@ function App() {
       <DataProvider>
         <Nav />
         <Routes>
-          <Route path="/reactcourse-blogapp/*" element={<Home />} />
+          <Route path="/*" element={<Home />} />
           <Route path="/post" element={<NewPost />} />
           <Route path="/edit/:id" element={<EditPost />} />
           <Route path="/post/:id" element={<PostPage />} />
