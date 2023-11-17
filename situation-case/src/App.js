@@ -17,12 +17,12 @@ function App() {
       <DataProvider>
         <Nav />
         <Routes>
-          <Route exact path="/" Component={Home} />
-          <Route path="/post" Component={NewPost} />
-          <Route path="/edit/:id" Component={EditPost} />
-          <Route path="/post/:id" Component={PostPage} />
-          <Route path="/about" Component={About} />
-          <Route path="*" Component={Missing} />
+          <Route path="/*" element={<Home />} />
+          <Route path="/post" element={<NewPost />} />
+          <Route path="/edit/:id" element={<EditPost />} />
+          <Route path="/post/:id" element={<PostPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Missing />} />
         </Routes>
       </DataProvider>
       <Footer />
