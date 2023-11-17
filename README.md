@@ -1,1 +1,1 @@
-﻿# [Course] React Blog App
+﻿# Blog App created through a React Course online using concepts like Routers, Hooks, CRUD and such.
