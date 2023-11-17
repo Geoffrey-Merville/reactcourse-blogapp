@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <Routes>
-        <Route path="/reactcourse-blogapp/*" element={<App />} />
+        <Route path="/*" element={<App />} />
       </Routes>
     </Router>
   </React.StrictMode>
