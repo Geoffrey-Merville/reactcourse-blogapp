@@ -17,12 +17,12 @@ function App() {
       <DataProvider>
         <Nav />
         <Routes>
-          <Route path="/reactcourse-blogapp/" element={<Home />} />
-          <Route path="/reactcourse-blogapp/post" element={<NewPost />} />
-          <Route path="/reactcourse-blogapp/edit/:id" element={<EditPost />} />
-          <Route path="/reactcourse-blogapp/post/:id" element={<PostPage />} />
-          <Route path="/reactcourse-blogapp/about" element={<About />} />
-          <Route path="/reactcourse-blogapp/*" element={<Missing />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/post" element={<NewPost />} />
+          <Route path="/edit/:id" element={<EditPost />} />
+          <Route path="/post/:id" element={<PostPage />} />
+          <Route path="/about" element={<About />} />
+          <Route path="*" element={<Missing />} />
         </Routes>
       </DataProvider>
       <Footer />
